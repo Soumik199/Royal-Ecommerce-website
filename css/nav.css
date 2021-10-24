@@ -1,0 +1,190 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body
+{
+    height:570vh;
+}
+.nav-link
+{
+    color:black;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+.navbar-brand
+{
+    color:black;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Texturina', serif;
+}
+h1
+{
+    color:black;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Texturina', serif;
+    
+}
+
+.pics
+{
+    height: 620px;
+ 
+}
+.parallex
+{
+    background: url("../Images/free.jpg");
+    height: 65vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.but
+{
+    width: 170px;
+}
+
+.container input
+{
+   position: absolute;
+   height: 40px;
+   width: 110px;
+   background-color: yellowgreen;
+   text-align: center;
+   top:50%;
+   left: 5%;
+   opacity: 0;
+   border:none;
+   outline: none;
+}
+.container .in
+{
+   position: absolute;
+   height: 40px;
+   width: 110px;
+   background-color: yellowgreen;
+   text-align: center;
+   top:50%;
+   left: 33%;
+   opacity: 0;
+   border:none;
+   outline: none;
+}
+.container .ins
+{
+   position: absolute;
+   height: 40px;
+   width: 110px;
+   background-color: yellowgreen;
+   text-align: center;
+   top:50%;
+   left: 60%;
+   opacity: 0;
+   border:none;
+   outline: none;
+}
+.container .inp
+{
+   position: absolute;
+   height: 40px;
+   width: 110px;
+   background-color: yellowgreen;
+   text-align: center;
+   top:50%;
+   left: 85%;
+   opacity: 0;
+   border:none;
+   outline: none;
+   
+}
+.container .card:hover input
+{
+    opacity: 1;
+    transition: 1s;
+
+}
+.bgs
+{
+    background: rgba(138, 135, 135, 0.274) !important;
+    box-shadow:2px 0px 15px rgba(63, 65, 64, 0.925);
+}
+.texts
+{
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 600;
+    text-align:center;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}

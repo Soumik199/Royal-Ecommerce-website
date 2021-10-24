@@ -1,0 +1,47 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body
+{
+    height:110vh;
+}
+.nav-link
+{
+    color:black;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+.navbar-brand
+{
+    color:black;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Texturina', serif;
+}
+h1
+{
+    color:black;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Texturina', serif;
+    
+}
+span{
+    font-size:15px;
+}
+
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
